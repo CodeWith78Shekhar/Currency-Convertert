@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* body{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
+} */
+.container{
+  /* border: 2px solid black; */
+  width: 25%;
+  height: 40vh;
+  margin-top: 20vh;
+  background-color: rgb(125, 192, 192);
+  padding: 1.5rem;
+  margin-left: 35%;
 }
 
-.App-link {
-  color: #61dafb;
+.input-box{
+  /* border: 2px solid black; */
+  margin-top: 2vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-box input{
+  height: 1.8rem;
+  width: 100%;
+}
+
+.flagContainer{
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 8vh;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.from{
+  /* border: 2px solid black; */
+  width: 40%;
+  height: 100%;
+}
+
+#countryFlag{
+  width: 30%;
+}
+
+.from img{
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+}
+
+.para{
+  /* border: 2px solid  black; */
+  width: 100%;
+  height: 5vh;
+  margin-top: 2vh
+}
+
+button{
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1.5vh;
+  background-color: rgb(117, 8, 145);
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
 }
